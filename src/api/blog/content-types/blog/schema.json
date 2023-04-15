@@ -1,0 +1,88 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blogs",
+  "info": {
+    "singularName": "blog",
+    "pluralName": "blogs",
+    "displayName": "blog",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "date": {
+      "type": "date"
+    },
+    "authors": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "capital": {
+      "type": "string"
+    },
+    "population": {
+      "type": "string"
+    },
+    "language": {
+      "type": "string"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "weather": {
+      "type": "json"
+    },
+    "safety": {
+      "type": "string"
+    },
+    "education": {
+      "type": "json"
+    },
+    "money": {
+      "type": "json"
+    },
+    "grid": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "info": {
+      "type": "json"
+    },
+    "quality": {
+      "type": "json"
+    },
+    "culture": {
+      "type": "json"
+    }
+  }
+}
